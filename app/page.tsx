@@ -6,6 +6,7 @@ export default function Home() {
     <div className="prose dark:prose-invert">        
               <div>
                 <DreamyText/>
+                
               </div>
       </div>
       

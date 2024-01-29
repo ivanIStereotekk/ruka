@@ -9,8 +9,8 @@ import FooterComponent from '@/components/footerSide'
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
-  title: "iskk.space: -stereotekk-",
-  description: "Ivan Stereotekk's web site with bio and projects info : Ivan Stereotekk -  dj / programmer / and sound producer",
+  title: "www.iskk.space  :  Ivan Stereotekk",
+  description: "Ivan Stereotekk's web site - Project's - Music - Info - Contacts.",
 }
 
 interface RootLayoutProps {
@@ -31,7 +31,8 @@ export default function RootLayout({ children }: RootLayoutProps) {
                 <nav className="ml-auto text-sm font-medium space-x-6">
                   <Link href="/">Home</Link>
                   <Link href="/donate">Donate</Link>
-                  <Link href="/author">Author</Link>
+                  <Link href="/author">Ivan Stereotekk</Link>
+                  <Link href="/music">Music</Link>
                 </nav>
               </div>
             </header>
